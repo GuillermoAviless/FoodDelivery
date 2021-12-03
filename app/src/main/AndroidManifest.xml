@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto_delivery" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono_delivery_foreground"
+        android:label="DELIVERY FOOD !"
+        android:roundIcon="@mipmap/icono_delivery_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Editar_Detalles"
+            android:exported="true" />
+        <activity android:name=".Login" />
+        <activity android:name=".ListaFactura" />
+        <activity android:name=".ListaCompra" />
+        <activity android:name=".ListaCarrito" />
+        <activity android:name=".ListaProducto" />
+        <activity android:name=".PizzaDtActivity" />
+        <activity android:name=".ListaInformacion" />
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
